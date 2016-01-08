@@ -34,8 +34,6 @@ namespace CoreDb
 
         #endregion ExecuteReader
 
-        //{
-
         #region Valiable
 
         protected static DbConnection ConTransaction; //Share For Transaction
