@@ -1,2 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WebTest Name="WebTest1" Id="d11f2190-f73e-4e61-bed8-0de7c2301bf9" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="" ResultsLocale="" />
+<WebTest Name="WebTest1" Id="d11f2190-f73e-4e61-bed8-0de7c2301bf9" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="" ResultsLocale="">
+  <Items>
+    <IncludedWebTest Name="getfxrate" Path="getfxrate.webtest" Id="2f0c173d-43c7-4cbb-8994-afe703293450" IsCodedWebTest="False" InheritWebTestSettings="False" />
+    <IncludedWebTest Name="GetfxratesLastUpdate" Path="getfxrateslastupdate.webtest" Id="294ce41b-467c-4f22-a64d-a0e15935e07e" IsCodedWebTest="False" InheritWebTestSettings="False" />
+    <IncludedWebTest Name="GetLatestfxrates" Path="getlatestfxrates.webtest" Id="b7a2e723-dfc4-49cc-8072-5aa6dacfc354" IsCodedWebTest="False" InheritWebTestSettings="False" />
+    <IncludedWebTest Name="Getdayinmonth" Path="getdayinmonth.webtest" Id="be36a074-6f9d-4e28-98e1-662a13ab32ce" IsCodedWebTest="False" InheritWebTestSettings="False" />
+  </Items>
+</WebTest>
