@@ -1,0 +1,5 @@
+Install-Package Microsoft.AspNet.WebApi.MessageHandlers.Compression
+
+Install-Package Strathweb.CacheOutput.WebApi2
+
+Install-Package Microsoft.AspNet.WebApi.Cors
