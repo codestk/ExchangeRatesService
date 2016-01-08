@@ -5,7 +5,7 @@ using WebApi.OutputCache.V2;
 
 namespace ExchangeRatesService.Controllers
 {
-    [CacheOutput(ClientTimeSpan = 180, ServerTimeSpan = 180, AnonymousOnly = true)]
+    //[CacheOutput(ClientTimeSpan = 180, ServerTimeSpan = 180, AnonymousOnly = true)]
     public class ExchangeWebApiController : ApiController
     {
         [Route("api/ServiceVersion")]

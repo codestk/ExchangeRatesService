@@ -4,9 +4,10 @@ using System.Data;
 
 namespace CoreDb.Collection
 {
-  public   class Transaction
+    public class Transaction
     {
-        string _sqlCommand;
+        private string _sqlCommand;
+
         public string SqlCommand
         {
             get
